@@ -1,0 +1,26 @@
+Create a Simple CV using Microsoft Word
+=======================================
+
+Microsoft Word - Is a word processing program developed for Windows and Macintosh platforms.
+
++ File Extensions: .doc OR .docx
+
++ We will use Word 2013
++ We will Save the word file as .pdf
+
+CV Content
+-----------------
+-Details
+-Skills
+-Education
+-Experience
+-Contact
+
+MS Word Shortcut:
+=====================
+# Ctrl C - Copy
+# Ctrl V - Paste
+# Ctrl S - Save
+$ Ctrl X - Cut
+# Ctrl Z - Undo
+# Ctrl Y - Redo

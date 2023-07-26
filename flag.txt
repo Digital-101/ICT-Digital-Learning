@@ -1,0 +1,23 @@
+How to Draw South African Flag using Microsoft Paint
+====================================================
+
++ South Africa -> A Rainbow Nation
+
++ We will save file as mzansi.png
+
+SA Flag Colours with Meaning
+-----------------------------
+-Red -> Blood Shed
+-Green -> Crops & Forestry
+-Blue -> Sky & Sea
+-White -> Peace
+-Gold -> Wealth
+-Black -> Sense of Belonging
+
+MS Paint Tactics:
+=================
+# Use Left Click & Hold to draw Line/Shape 
+# Use Right Click to Reset
+# Or Left Click on empty space to Reset in order to draw
+new Line/Shape
+
