@@ -8,8 +8,12 @@ ICT Digital Learning blog: https://ict-digital-learning.blogspot.com/2023/05/cre
 YouTube Videos:
 ================
 Create CV using Microsoft Word - https://www.youtube.com/watch?v=s2KcCYxkgMw
+
 Draw South African Flag using Microsoft Paint - https://www.youtube.com/watch?v=QMMiN_RGzoE
+
 PC Shutdown Prank - https://www.youtube.com/watch?v=0dxt6y6ujFI
+
 City Map using Python - https://youtu.be/2FOr-T8YjhQ
+
 
 ![Screenshot (9)](https://github.com/Digital-101/ICT-Digital-Learning/assets/65094648/e7b2862a-16fc-4268-85d7-6a5dcf972ace)
