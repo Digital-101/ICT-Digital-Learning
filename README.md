@@ -15,5 +15,7 @@ PC Shutdown Prank - https://www.youtube.com/watch?v=0dxt6y6ujFI
 
 City Map using Python - https://youtu.be/2FOr-T8YjhQ
 
+Simple CV using HTML & CSS - https://www.youtube.com/watch?v=z5C8HtflHnU
+
 
 ![Screenshot (9)](https://github.com/Digital-101/ICT-Digital-Learning/assets/65094648/e7b2862a-16fc-4268-85d7-6a5dcf972ace)
