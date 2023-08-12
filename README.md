@@ -1,5 +1,6 @@
 # ICT-Digital-Learning
-ICT Coding Projects
+
+Digital One Channel - https://www.youtube.com/@DigitalOne101
 
 ICT Digital Learning blog: 
 + Blog Link - https://ict-digital-learning.blogspot.com
@@ -30,8 +31,6 @@ View CV Website - https://turquoise-cthrine-35.tiiny.site
 Business Website guide on #CodeJika -> https://www.codejika.com/downloads/201903%20PROJECT%203%20-%20CodeJIKA.com%20DT%20v1.pdf
 
 View Small Business Website - https://coffeeshop77.neocities.org
-
-Digital One Channel - https://www.youtube.com/@DigitalOne101
 
 ![Screenshot (21)](https://github.com/Digital-101/ICT-Digital-Learning/assets/65094648/93cd80c3-238d-4b06-b416-3e009c344a84)
 
