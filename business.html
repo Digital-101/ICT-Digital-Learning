@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ctg-2.png" type="image/x-icon">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: tahoma;
+            text-align: center;
+            background-color: rgb(196, 154, 236);
+        }
+
+        header {
+            letter-spacing: 6px;
+            color: white;
+            background: royalblue;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            width: 100%;
+        }
+
+        section {
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            background-color: ivory;
+            margin: 25px;
+            padding: 25px;
+            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+        }
+
+
+        h1 {
+            font-size: 5em;
+        }
+
+        button,
+        .button {
+            background: royalblue;
+            border: 0;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .blue {
+            background: teal;
+        }
+
+        .button,
+        .container {
+            margin: 10px;
+        }
+
+        .circle {
+            color: white;
+            font-size: 2.5em;
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            margin: 15px;
+            border-radius: 50%;
+            background: rgb(156, 199, 212);
+            padding: 5px 10px 15px 10px;
+            font-family: helvetica;
+        }
+
+        .footer {
+            padding: 30px;
+            background: gray;
+        }
+
+        .icons {
+            font-size: 8em;
+            padding: 25px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        #my-order {
+            background-color: #aab4ce;
+            padding: 25px;
+            display: blo;
+        }
+
+        @media screen and (min-width: 50em) {
+            .card {
+                flex-basis: 325px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Coffee Shop
+    </h1>
+    <h4>
+        Freshly Served for Good People
+    </h4>
+
+    <center>
+        <img src="god.jpg" alt="" width="200" height="300">
+    </center>
+
+    <section class="container">
+
+        <h2>Welcome</h2>
+        <span style="background-color: rgb(102, 196, 102);">
+            <p>VISION: To spread love and recharge your body energy levels.</p>
+        </span>
+        <br>
+        <br>
+        <p>ABOUT US: Founded in 2022, by
+            Digital One. We've served over 70 clients
+            and delivered over 101 fresh
+            treats.</p>
+        <h2>
+            OUR SERVICES://
+        </h2>
+        <article class="card">
+            <div class="icons">&#9749;</div>
+            <h3>Hot Coffee</h3>
+            <p>Fresh Coffee for breakfast</p>
+            <button>Learn More</button>
+        </article>
+        <article class="card">
+            <div class="icons">&#9734;</div>
+            <h3>Free Biscuits</h3>
+            <p>Get Free Biscuits when you buy a drink</p>
+            <button>Learn More</button>
+        </article>
+    </section>
+
+    <section>
+        <h2> MY ORDER FORM: </h2>
+        <form id="my-form">
+            <table>
+                <tr>
+                    <td> Name: </td>
+                    <td><input type="text" size="25" name="my-name"> </td>
+                </tr>
+                <tr>
+                    <td> Address: </td>
+                    <td> <input type="text" size="25" name="my-address"></td>
+                </tr>
+                <tr>
+                    <td> Menu: --> </td>
+                    <td> 
+                        <table style="background: rgb(95, 95, 153);">
+                            <tr>
+                                <td><u>Drink</u></td>
+                                <td><u>Price</u></td>
+                            </tr>
+                            <tr>
+                                <td>Coffee</td>
+                                <td>R7,00</td>
+                            </tr>
+                            <tr>
+                                <td>Milk</td>
+                                <td>R10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Tea</td>
+                                <td>R3,00</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Favourite drink: </td>
+                    <td style="background-color: rgb(95, 95, 153);">
+                        <select style="background-color: rgb(190, 190, 236);" name="my-drink">
+                            <option> Milk </option>
+                            <option> Coffee </option>
+                            <option> Tea </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Quantity: </td>
+                    <td>
+                        <input type="number" name="my-qty" value="1" min="1" max="5">
+                        <small>(max 5)</small>
+                    </td>
+                </tr>
+                <tr>
+                    <br>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="button" type="button" value="Process Order" onclick="placeOrder();">
+                        <input class="button" type="reset" value="Clear" onclick="document.getElementById('my-order').style.display = 'none'" ;>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div id="my-order">
+            </div>
+        </form>
+    </section>
+
+    <section class="blue container">
+        <h2>OUR TEAM://</h2>
+        <article class="card">
+            <div class="icons">&#x1F60E</div>
+            <h3>Digital One</h3>
+            <p>Jnr. Web Developer - Creates beautiful
+                websites for businesses in Durban.</p>
+            <button> Contact </button>
+        </article>
+        <article class="card">
+            <div class="icons"> &#10084;
+            </div>
+            <h3>David Mukhura</h3>
+            <p>Jnr. Web Developer - Creates
+                simple, beautiful websites for
+                businesses in Soweto.</p>
+            <button> Contact </button>
+        </article>
+
+    </section>
+
+
+    <br>
+
+    <div class="footer">
+        <h3>Thanks for Visiting.</h3>
+        <div class="container">
+            <article class="card">
+                <h3>Get in Touch.</h3>
+                <p>Probably the best place to buy coffee around Durban.</p>
+            </article>
+            <article class="card">
+                <h3>Contact Us:</h3>
+                <p>We would like to hear from you. <br>Call or email us.<br>Tel: 031 509 5247 <br>Email:
+                    coffee77@gmail.com</p>
+            </article>
+        </div>
+    </div>
+
+    <hr>
+
+    <center>
+        <div class="circle"><a href="https://www.facebook.com" target="_blank">F</a></div>
+        <div class="circle"><a href="https://www.twitter.com" target="_blank">T</a></div>
+        <div class="circle"><a href="https://www.instagram.com" target="_blank">I</a></div>
+        <br>
+        
+        <p>&copy Copyright Coffee Shop <span id="datetime"></span></p>
+    </center>
+
+    <script>
+
+            var menu = new Array();
+            menu["Coffee"]=7;
+            menu["Milk"]=10;
+            menu["Tea"]=3;
+
+        function getDrinkPrice() 
+        {
+            
+            var drinkPrice =0;
+            var orderForm = document.getElementById("my-form");
+
+            var selectedDrink = orderForm.elements["my-drink"].value;
+            drinkPrice = menu[selectedDrink.value];
+            return drinkPrice;
+              
+        }
+
+        function getQuantity() 
+        {
+            var theForm = document.forms["my-form"];
+            
+            var quantity = theForm.elements["my-qty"];
+            var howmany = 0;
+
+            if (quantity.value !="") {
+                howmany = parseInt(quantity.value);
+            }
+            return howmany;
+        }
+
+        function getTotal() 
+        {
+            var tasteDrink = getDrinkPrice() * getQuantity();
+            document.getElementById('totalPrice').innerHTML = "Total: R"+tasteDrink;    
+            return tasteDrink;
+        }
+
+        function placeOrder() {
+           
+            var orderForm = document.getElementById("my-form");
+
+            var orderNum = Math.floor(Math.random()*101);
+            results = "<h3>Success!</h3> Here is your order number: #"+orderNum;
+            results += "<br>Name: " + orderForm.elements["my-name"].value;
+            results += "<br>Address: " + orderForm.elements["my-address"].value;
+            results += "<br>I like to order: " + orderForm.elements["my-drink"].value; 
+
+            //results += "<br>Price: " + getDrinkPrice(); 
+            results += "<br>Quantity: " + orderForm.elements["my-qty"].value;
+            //results += "<br>Total: " +getTotal(); 
+            var orderResults = document.getElementById("my-order");
+            orderResults.style.display = "block";
+            orderResults.innerHTML = results;
+        }
+
+        var date = new Date();
+        document.getElementById("datetime").innerHTML = date.getFullYear();
+    </script>
+
+</body>
+
+</html>
