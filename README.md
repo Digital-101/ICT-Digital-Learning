@@ -20,6 +20,8 @@ City Map using Python - https://youtu.be/2FOr-T8YjhQ
 
 Simple CV using HTML & CSS - https://www.youtube.com/watch?v=z5C8HtflHnU
 
+Small Business using HTML, CSS & JS - https://www.youtube.com/watch?v=BN8x1y-eYD0
+
 _____________________________________________________________________________________
 
 CV guide on #CodeJika -> https://www.codejika.com/downloads/201903%20PROJECT%202%20-%20CodeJIKA.com%20DT%20v2.pdf
