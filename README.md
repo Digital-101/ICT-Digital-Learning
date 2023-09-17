@@ -20,7 +20,7 @@ City Map using Python - https://youtu.be/2FOr-T8YjhQ
 
 Simple CV using HTML & CSS - https://www.youtube.com/watch?v=z5C8HtflHnU
 
-Small Business using HTML, CSS & JS - https://www.youtube.com/watch?v=BN8x1y-eYD0
+Small Business Website using HTML, CSS & JS - https://www.youtube.com/watch?v=BN8x1y-eYD0
 
 _____________________________________________________________________________________
 
